@@ -1,7 +1,7 @@
 
 services:
   nestapp:
-    build: ./
+    image: martintavella/nest-demo
     ports:
       - "3001:8080"
     env_file:
